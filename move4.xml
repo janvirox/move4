@@ -1,4 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="math_number" id="154" x="605" y="40">
+    <field name="NUM">1000</field>
+  </block>
   <block type="controls_repeat" id="153" inline="true" x="214" y="183">
     <value name="TIMES">
       <block type="math_number" id="155">
@@ -17,28 +20,28 @@
             <next>
               <block type="movement_stutter" id="10">
                 <next>
-                  <block type="robot_delay" id="42" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="58">
-                        <field name="NUM">1000</field>
-                      </block>
-                    </value>
+                  <block type="oled_linerect" id="183">
+                    <field name="OBJECT">RECT</field>
                     <next>
-                      <block type="movement_reverse" id="30">
+                      <block type="robot_delay" id="185" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="186">
+                            <field name="NUM">1000</field>
+                          </block>
+                        </value>
                         <next>
-                          <block type="robot_delay" id="107" inline="true">
+                          <block type="robot_delay" id="42" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="108">
+                              <block type="math_number" id="58">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
                             <next>
-                              <block type="oled_linerect" id="183">
-                                <field name="OBJECT">RECT</field>
+                              <block type="movement_reverse" id="30">
                                 <next>
-                                  <block type="robot_delay" id="185" inline="true">
+                                  <block type="robot_delay" id="107" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="186">
+                                      <block type="math_number" id="108">
                                         <field name="NUM">1000</field>
                                       </block>
                                     </value>
@@ -58,8 +61,5 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="math_number" id="154" x="312" y="316">
-    <field name="NUM">1000</field>
   </block>
 </xml>
