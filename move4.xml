@@ -1,7 +1,4 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="math_number" id="154" x="605" y="40">
-    <field name="NUM">1000</field>
-  </block>
   <block type="controls_repeat" id="153" inline="true" x="214" y="183">
     <value name="TIMES">
       <block type="math_number" id="155">
@@ -45,7 +42,7 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="multimedia_playwav" id="237">
+                                      <block type="multimedia_playwav" id="284">
                                         <field name="WAV">drums</field>
                                       </block>
                                     </next>
