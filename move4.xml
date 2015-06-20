@@ -20,15 +20,14 @@
             <next>
               <block type="movement_stutter" id="10">
                 <next>
-                  <block type="oled_linerect" id="183">
-                    <field name="OBJECT">RECT</field>
+                  <block type="robot_delay" id="185" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="186">
+                        <field name="NUM">1000</field>
+                      </block>
+                    </value>
                     <next>
-                      <block type="robot_delay" id="185" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="186">
-                            <field name="NUM">1000</field>
-                          </block>
-                        </value>
+                      <block type="movement_left" id="196">
                         <next>
                           <block type="robot_delay" id="42" inline="true">
                             <value name="DELAY">
@@ -45,6 +44,11 @@
                                         <field name="NUM">1000</field>
                                       </block>
                                     </value>
+                                    <next>
+                                      <block type="multimedia_playwav" id="237">
+                                        <field name="WAV">drums</field>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
