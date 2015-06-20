@@ -41,11 +41,6 @@
                                         <field name="NUM">1000</field>
                                       </block>
                                     </value>
-                                    <next>
-                                      <block type="multimedia_playwav" id="284">
-                                        <field name="WAV">drums</field>
-                                      </block>
-                                    </next>
                                   </block>
                                 </next>
                               </block>
